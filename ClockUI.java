@@ -10,18 +10,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 /**
  *
- * @author FiercePC
+ * @author Wandering
  */
 public class clockUI extends javax.swing.JFrame {
     
-    private AlarmClock clock;
+    private Clock clock;
 
     /**
      * Creates new form clockUI
      */
     public clockUI() {
         initComponents();
-        clock = new AlarmClock();
+        clock = new Clock();
     }
 
     /**
